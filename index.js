@@ -37,11 +37,12 @@ function nowServing(line){
 
 function currentLine(line) {
   var linearray = []
+  var newline = []
   if (line.length == 0) {
   console.log(`The line is currently: empty`)};
   for (var cust = 0; cust < line.length; cust++) {
   linearray.push(line)
-  linearray.unshift(cust)
+  newline.push(cust)
     return linearray
   }
 }
