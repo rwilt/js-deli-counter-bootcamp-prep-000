@@ -41,7 +41,5 @@ function currentLine(line) {
   console.log(`The line is currently: empty`)};
   for (var cust = 0; cust < line.length; cust++) {
   return ${line})
-  newline.push(cust)
-    return `The line is currently ${newline}: ${line}`
   }
 }
