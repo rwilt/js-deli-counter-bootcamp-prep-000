@@ -52,4 +52,3 @@ function currentLine(line) {
     linearray.push(line[i])
     return `The line is currently ${i}linearray`}
   }
-
