@@ -52,5 +52,4 @@ function currentLine(line) {
     linearray.push(i);
     console.log(`The line is currently ${linearray[i]}`+ `.` + `${line[i]}`)
     }
-
   }
