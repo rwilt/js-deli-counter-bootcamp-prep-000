@@ -38,6 +38,6 @@ function nowServing(line){
 function currentLine(line) {
   if (line.length == 0) {
   console.log(`The line is currently: empty`)};
-  for (var cust = 0; cust < line.length; cust++) {
+  for (var cust = 0; cust > line.length; cust++) {
   return `The line is currently ${line}`}
 }
