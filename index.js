@@ -42,5 +42,4 @@ function currentLine(line) {
   for (var cust = 0; cust < line.length; cust++) {
   linearray.push(line)
     return linearray
-
-}
+  }
