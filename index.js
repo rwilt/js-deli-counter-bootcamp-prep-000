@@ -19,6 +19,7 @@ function takeANumber(katzDeliLine, customer){
 // individual from the line. If there is nobody in line, it should return "There is nobody waiting to be served!"
 //
 
+
 function nowServing(line){
   var first = line.shift()
   if (line.length == 0) {
@@ -27,7 +28,14 @@ function nowServing(line){
   else {return `Currently serving ${first}.`}
 
   // 'Currently serving Steven.'
-}
+
+function nowServing(line,person){
+  line.push(person);
+  line[0];
+  line.shift(person);
+  if (line.length == 0) {
+    return "There is nobody waiting to be served!"
+  }}
 
 // Build a function currentLine that returns the current line. For example,
 // if katzDeliLine is currently ["Ada", "Grace"], currentLine(katzDeliLine) would return
@@ -39,5 +47,22 @@ function currentLine(line) {
   if (line.length > 0) {
   console.log(`The line is currently: ${line}`)}
   else
-  return `The line is currently empty.`
-}
+  return `The line is currently empty.`}
+
+
+//MOSTLY CORRECT:
+// function currentLine(katzDeliLine, customer) {
+//   katzDeliLine.push(customer)
+//   if (katzDeliLine.length > 0) {
+//   return `The line is currently: ${katzDeliLine}`}
+//   else console.log("The line is currently empty.")
+//
+// }
+
+// function currentLine(katzDeliLine, customer) {
+//   katzDeliLine.push(customer)
+// for (var i = 0; katzDeliLine.length > 0; i++) {
+//   console.log(`The line is currently: ${katzDeliLine}`)}
+//  if (katzDeliLine.length == 0) {
+//   console.log("The line is currently empty.")}
+//}
