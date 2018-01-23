@@ -40,7 +40,7 @@ function currentLine(line) {
   if (line.length == 0) {
   console.log(`The line is currently: empty`)};
   for (var i = 0; i < line.length; i++) {
-  linearray.push(`${line}`)
+  linearray.push(`${line.slice[i]}`)
   }
   return `The line is currently:` + linearray
 }
