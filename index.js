@@ -36,8 +36,9 @@ function nowServing(line){
 
 
 function currentLine(line) {
+  var linearray = []
   if (line.length == 0) {
   console.log(`The line is currently: empty`)};
   for (var cust = 0; cust < line.length; cust++) {
-  return `The line is currently ${line}`}
+  linearray.push(`The line is currently ${line}`)}
 }
