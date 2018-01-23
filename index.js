@@ -41,6 +41,7 @@ function currentLine(line) {
   console.log(`The line is currently: empty`)};
   for (var cust = 0; cust < line.length; cust++) {
   linearray.push(line)
+  linearray.unshift(cust)
     return linearray
   }
 }
