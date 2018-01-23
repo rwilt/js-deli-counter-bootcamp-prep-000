@@ -52,5 +52,5 @@ function currentLine(line) {
     linearray.push(i)
     return `The line is currently ${linearray[i]}: ${line[i]}`
     }
-    
+
   }
