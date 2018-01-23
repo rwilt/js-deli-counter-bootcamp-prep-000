@@ -42,5 +42,5 @@ function currentLine(line) {
   for (var i = 0; i < line.length; i++) {
   linearraypush(`${line[i]}`)
   }
-  return `The line is currently:` + linearray
+  return `The line is currently:` + linearray[i] + linearray
 }
