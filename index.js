@@ -50,4 +50,5 @@ function currentLine(line) {
   console.log(`The line is currently: empty`)};
   for (var i = 0; i < line.length; i++) {
     linearray.push(i)}
-    return linearray}
+    return linearray
+  }
