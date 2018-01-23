@@ -48,8 +48,9 @@ function currentLine(line) {
   var linearray = []
   if (line.length == 0) {
   console.log(`The line is currently empty.`)};
+  else {
   for (var i = 0; i < line.length; i++) {
     linearray.push(` ${i+1}`+ `.` + ` ${line[i]}`);
     }
-    return `The line is currently:` + `${linearray}`
+    return `The line is currently:` + `${linearray}`}
   }
