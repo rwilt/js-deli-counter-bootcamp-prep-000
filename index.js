@@ -43,6 +43,6 @@ function currentLine(line) {
   for (var cust = 0; cust < line.length; cust++) {
   linearray.push(line)
   newline.push(cust)
-    return linearray
+    return `The line is currently ${newline}: ${line}`
   }
 }
