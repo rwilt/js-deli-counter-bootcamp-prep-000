@@ -39,5 +39,5 @@ function currentLine(line) {
   if (line.length == 0) {
   console.log(`The line is currently: empty`)};
   for (var cust = 0; cust < line.length; cust++) {
-  return `The line is currently ${line.toString()}`}
+  return `The line is currently ${line}`}
 }
