@@ -36,8 +36,8 @@ function nowServing(line){
 
 
 function currentLine(line) {
-  if (line.length > 0) {
-  console.log(`The line is currently: ${line}`)}
-  else
+  if (line.length == 0) {
+  console.log(`The line is currently: empty`)};
+  for (var cust = 0 )
   return `The line is currently empty.`
 }
